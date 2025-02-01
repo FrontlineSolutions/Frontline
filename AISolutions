@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We help businesses streamline operations, reduce costs, and boost efficiency using cutting-edge AI solutions.">
+    <meta name="keywords" content="AI automation, machine learning, data analytics, custom AI development">
+    <title>AI Automation Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">AI Automation Agency</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Empowering Businesses with AI Automation</h1>
+            <p>We help businesses streamline operations, reduce costs, and boost efficiency using cutting-edge AI solutions.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are an AI Automation Agency dedicated to helping businesses achieve their goals through innovative AI solutions. Our team of experts specializes in AI-powered process automation, machine learning, data analytics, and custom AI development.</p>
+            <img src="team-photo.jpg" alt="Our Team" class="team-photo">
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <i class="icon">🤖</i>
+                <h3>AI-Powered Process Automation</h3>
+                <p>Streamline your business processes with our AI-powered automation solutions.</p>
+            </div>
+            <div class="service">
+                <i class="icon">📊</i>
+                <h3>Machine Learning Solutions</h3>
+                <p>Leverage the power of machine learning to gain insights and make data-driven decisions.</p>
+            </div>
+            <div class="service">
+                <i class="icon">🔍</i>
+                <h3>Data Analytics and Insights</h3>
+                <p>Unlock valuable insights from your data with our advanced analytics solutions.</p>
+            </div>
+            <div class="service">
+                <i class="icon">💡</i>
+                <h3>Custom AI Development</h3>
+                <p>Get tailor-made AI solutions that fit your unique business needs.</p>
+            </div>
+            <a href="#contact" class="btn">Request a Demo</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Portfolio / Case Studies</h2>
+            <div class="case-study">
+                <h3>Project Alpha</h3>
+                <p>Reduced operational costs by 30%</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="case-study">
+                <h3>Project Beta</h3>
+                <p>Increased efficiency by 45%</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="case-study">
+                <h3>Project Gamma</h3>
+                <p>Improved decision-making with data insights</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2>Blog</h2>
+            <article class="blog-post">
+                <h3>AI Trends in 2025</h3>
+                <p>Discover the latest trends in AI and how they can benefit your business.</p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3>Automation Tips for Businesses</h3>
+                <p>Learn how to automate your business processes effectively with these tips.</p>
+                <a href="#" class="btn">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: contact@aiautomationagency.com</p>
+                <p>Phone: +123-456-7890</p>
+                <p>Address: 123 AI Automation St, Tech City</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093747!2d144.9630579153225!3d-37.81410797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d8e5d8c2b1b!2sAI%20Automation%20Agency!5e0!3m2!1sen!2sus!4v1614715787123!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AI Automation Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
